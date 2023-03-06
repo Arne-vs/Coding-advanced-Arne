@@ -1,0 +1,106 @@
+:root {
+  --swiper-navigation-color: white;
+  --swiper-pagination-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 100vw;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.swiper {
+  width: 100vw;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.swiper-button-prev {
+  padding-left: 5rem;
+}
+
+.swiper-button-next {
+  padding-right: 5rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 1fr;
+  padding: 2rem;
+  padding-left: 8rem;
+}
+
+
+.footer__opening {
+  text-align: center;
+}
+
+.footer__opening p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.footer__contact {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__contact h2{
+  margin-bottom: 0.5rem;
+}
+
+.footer__contact p {
+  margin-top: 0.5rem;
+}
+
+.loader {
+  border: 0.5rem solid #f3f3f3;
+  border-top: 0.5rem solid black;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  margin-left: 0vw;
+}
+
+/* Animation for the loader */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.adressloader {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
