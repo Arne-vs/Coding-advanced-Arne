@@ -42,6 +42,7 @@ img {
 .swiper-button-prev::after,
 .swiper-button-next::after {
   padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 1.8rem !important;
 }
 
